@@ -29,8 +29,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This SAX (version 2) filter can be used to transform documents to
 ensure the prefixes associated with namespaces are used consistently.
 
-# %description -l pl
-# TODO
+%description -l pl
+Ten filtr SAX (w wersji 2) mo¿e byæ u¿ywany do przekszta³cania
+dokumentów w celu upewnienia siê, ¿e prefiksy powi±zane z
+przestrzeniami nazw s± u¿ywane spójnie.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -53,5 +55,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{perl_vendorlib}/%{pdir}/*/*.pm
+%{perl_vendorlib}/XML/*/*.pm
 %{_mandir}/man3/*
