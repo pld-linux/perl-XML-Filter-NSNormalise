@@ -3,8 +3,8 @@
 %bcond_without	tests		# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	XML
-%define	pnam	Filter-NSNormalise
+%define		pdir	XML
+%define		pnam	Filter-NSNormalise
 Summary:	XML::Filter::NSNormalise - SAX filter to normalise namespace prefixes
 Summary(pl):	XML::Filter::NSNormalise - filtr SAX normalizuj±cy prefiksy przestrzeni nazw
 Name:		perl-XML-Filter-NSNormalise
