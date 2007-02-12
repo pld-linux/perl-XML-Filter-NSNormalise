@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	Filter-NSNormalise
 Summary:	XML::Filter::NSNormalise - SAX filter to normalise namespace prefixes
-Summary(pl):	XML::Filter::NSNormalise - filtr SAX normalizuj±cy prefiksy przestrzeni nazw
+Summary(pl.UTF-8):   XML::Filter::NSNormalise - filtr SAX normalizujÄ…cy prefiksy przestrzeni nazw
 Name:		perl-XML-Filter-NSNormalise
 Version:	0.04
 Release:	1
@@ -29,10 +29,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This SAX (version 2) filter can be used to transform documents to
 ensure the prefixes associated with namespaces are used consistently.
 
-%description -l pl
-Ten filtr SAX (w wersji 2) mo¿e byæ u¿ywany do przekszta³cania
-dokumentów w celu upewnienia siê, ¿e prefiksy powi±zane z
-przestrzeniami nazw s± u¿ywane spójnie.
+%description -l pl.UTF-8
+Ten filtr SAX (w wersji 2) moÅ¼e byÄ‡ uÅ¼ywany do przeksztaÅ‚cania
+dokumentÃ³w w celu upewnienia siÄ™, Å¼e prefiksy powiÄ…zane z
+przestrzeniami nazw sÄ… uÅ¼ywane spÃ³jnie.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
