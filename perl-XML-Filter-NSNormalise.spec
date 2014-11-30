@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	XML
 %define		pnam	Filter-NSNormalise
+%include	/usr/lib/rpm/macros.perl
 Summary:	XML::Filter::NSNormalise - SAX filter to normalise namespace prefixes
 Summary(pl.UTF-8):	XML::Filter::NSNormalise - filtr SAX normalizujący prefiksy przestrzeni nazw
 Name:		perl-XML-Filter-NSNormalise
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	6d42b4b4df10bce96a6a8a57bab99f4d
+URL:		http://search.cpan.org/dist/XML-Filter-NSNormalise/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
