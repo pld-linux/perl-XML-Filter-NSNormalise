@@ -4,7 +4,6 @@
 
 %define		pdir	XML
 %define		pnam	Filter-NSNormalise
-%include	/usr/lib/rpm/macros.perl
 Summary:	XML::Filter::NSNormalise - SAX filter to normalise namespace prefixes
 Summary(pl.UTF-8):	XML::Filter::NSNormalise - filtr SAX normalizujący prefiksy przestrzeni nazw
 Name:		perl-XML-Filter-NSNormalise
