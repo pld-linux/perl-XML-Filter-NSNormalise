@@ -8,7 +8,7 @@ Summary:	XML::Filter::NSNormalise - SAX filter to normalise namespace prefixes
 Summary(pl.UTF-8):	XML::Filter::NSNormalise - filtr SAX normalizujący prefiksy przestrzeni nazw
 Name:		perl-XML-Filter-NSNormalise
 Version:	0.04
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
